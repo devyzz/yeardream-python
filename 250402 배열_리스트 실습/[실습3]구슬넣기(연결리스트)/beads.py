@@ -7,14 +7,12 @@ class LinkedListElement:
 class LinkedListPipe:
 
     def __init__(self):
-
-        self.myPipe = []
         self.start = None
         self.end = None
 
     def addLeft(self, n):
 
-        if self.start == None and self.end == None:
+        if self.start is None and self.end is None:
             element = LinkedListElement(n, None)
             self.start = element
             self.end = element
@@ -24,7 +22,7 @@ class LinkedListPipe:
 
     def addRight(self, n):
 
-        if self.start == None and self.end == None:
+        if self.start is None and self.end is None:
             element = LinkedListElement(n, None)
             self.start = element
             self.end = element
@@ -38,7 +36,7 @@ class LinkedListPipe:
         result = []
         current = self.start
 
-        while current != None:
+        while current is not None:
             result.append(current.value)
             current = current.myNext
 
