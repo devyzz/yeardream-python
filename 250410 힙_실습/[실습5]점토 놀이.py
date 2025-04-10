@@ -7,8 +7,6 @@
 '''
 import heapq
 
-import heapq
-
 def getMinForce(weights):
     '''
     n개의 점토를 하나로 합치기 위해 필요한 힘의 합의 최솟값을 반환하는 함수
