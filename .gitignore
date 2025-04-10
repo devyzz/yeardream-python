@@ -5,3 +5,4 @@
 .idea/vcs.xml
 250402 스택_큐 실습/\[실습6\]주문 처리하기/__pycache__/order.cpython-39.pyc
 *.pyc
+.idea/dbnavigator.xml
